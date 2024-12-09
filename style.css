@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.trip {
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.trip h1 {
+  font-size: 72px;
+  color: #303030;
+  font-family: "Monserrat";
+  font-weight: 700;
+}
+.trip p {
+  font-size: 24px;
+  color: #ababab;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1199px;
+
+  margin-bottom: 150px;
+  margin-top: 80px;
+  gap: 20px;
+}
+.card {
+  height: 400px;
+  width: 284px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.descriptionDays {
+  color: #ababab;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.description h1 {
+  color: #303030;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.detail {
+  gap: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1200px;
+}
+.photo {
+  width: 694px;
+  height: 845px;
+}
+.photo img {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.days {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.circle {
+  width: 56px;
+  height: 56px;
+  background-color: #1d1f24;
+  border-radius: 50%;
+  color: #16a94a;
+  font-family: "Montserrat";
+  size: 17px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+.intro {
+  text-align: center;
+  margin: 100px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.intro p {
+  color: #ababab;
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.intro h2 {
+  color: #303030;
+  font-size: 48px;
+  font-family: "Monserrat";
+  font-weight: 700;
+}
+.packS {
+  background-color: #ffffff;
+  width: 285px;
+  height: 370px;
+  border-radius: 24px;
+  padding: 40px;
+}
+.packS h4 {
+  size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-bottom: 24px;
+  color: #303030;
+}
+.packS li {
+  font-weight: 500;
+  color: #777777;
+  font-family: "Montserrat";
+  margin-bottom: 13px;
+}
+.packL {
+  background-color: #ffffff;
+  width: 285px;
+  height: 370px;
+  padding: 40px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.packL h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-bottom: 24px;
+}
+
+.packL li {
+  font-weight: 500;
+  color: #777777;
+  font-family: "Montserrat";
+  margin-bottom: 13px;
+}
+.firstLi {
+  font-weight: 700 !important;
+}
+.pricequote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.packS:hover {
+  border-color: #18ba51;
+  border: solid 1px #18ba51;
+}
+.packL:hover {
+  border: solid 1px #18ba51;
+}
+.price1 h5 {
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 32px;
+  color: #303030;
+  text-align: end;
+}
+.price2 h5 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  color: #303030;
+  text-align: end;
+}
+.action {
+  background-color: #171717;
+  height: 393px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.ready h6 {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.button {
+  background-color: #18ba51;
+  width: 130px;
+  height: 44px;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.background {
+  height: 228px;
+  width: 100%;
+  background-color: #101010;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}

@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "../chall3"
+	},
+	{
+		"path": "../oct24"
+	},
+	{
+		"path": "../oct25"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "oct28"
+  }
+}
